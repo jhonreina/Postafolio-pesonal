@@ -1,0 +1,6 @@
+.menu__header{
+   display: contents;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}

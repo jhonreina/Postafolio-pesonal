@@ -1,0 +1,21 @@
+.menu__list__item{
+    margin-right: 1.2rem;
+}
+
+.menu__list__item-bold{
+    font-weight: bold;
+}
+
+.menu__list__item--contato a{
+    font-size: 0.875rem;
+    font-family: 'Raleway',    sans-serif;
+    font-weight: 400;
+    color:#464646;    
+}
+
+@media screen and (min-width:1024px) {
+    .menu__list__item--contato{
+        display: none;
+    }
+}
+

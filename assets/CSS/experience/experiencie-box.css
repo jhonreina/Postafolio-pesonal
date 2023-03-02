@@ -1,0 +1,23 @@
+.experiencie__box{
+    padding: 0 1.6rem 0 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.experiencie__box--end{
+   padding: 0 1.6rem 0 1.6rem;
+   margin-bottom: 1.6rem;
+}
+
+@media screen and (min-width:1024px) {
+    .experiencie__box{
+        display:flex;        
+        width: 100%;
+        justify-content: space-around;
+        padding: 0.8rem 0 0 0;
+        align-items: center;
+    }
+    .experiencie__box--reverse{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}

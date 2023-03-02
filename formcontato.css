@@ -1,0 +1,10 @@
+.formcontato{
+    padding: 1.6rem;
+    background:  #CEECF2;
+}
+
+@media screen and (min-width:1024px) {
+    .formcontato{
+        padding: 3.2rem 0;
+    }
+}

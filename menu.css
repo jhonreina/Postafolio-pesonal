@@ -1,0 +1,25 @@
+section.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;      
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.8rem;
+}
+
+@media screen and (min-width:768px) {
+     .menu__list{
+        display: none;        
+     }  
+     section.menu{
+        padding: 0.8rem 1.6rem;
+     }
+}
+@media screen and (min-width:1024px) {
+     .menu__list{
+        display: block;        
+     }  
+     section.menu{
+        padding: 1.6rem 0rem;
+     }
+}

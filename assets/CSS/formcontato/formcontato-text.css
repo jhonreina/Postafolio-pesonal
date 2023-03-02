@@ -1,0 +1,10 @@
+.formcontato__text{
+    width: 100%;
+    
+}
+
+@media screen and (min-width:1024px) {
+    .formcontato__text{
+        margin-left: 1.5rem;
+    }
+}

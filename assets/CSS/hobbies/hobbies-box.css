@@ -1,0 +1,23 @@
+.hobbies__box{
+       background-color: #FFF;
+       width: 47%;
+       height: 118px;
+       padding: .8rem;
+       margin-top: .8rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;      
+}
+
+@media screen and (min-width:768px) {
+    .hobbies__box{
+          width: 30%;
+          margin-top: 1.6rem;
+       }
+}
+@media screen and (min-width:1024px) {
+    .hobbies__box{
+          width: 15%;
+          margin-top: 1.6rem;
+       }
+}
